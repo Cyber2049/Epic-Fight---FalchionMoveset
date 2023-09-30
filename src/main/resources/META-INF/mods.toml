@@ -1,0 +1,41 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="GPLv3"
+[[mods]]
+modId="falchionmoveset"
+version="18.0.2"
+displayName="falchion moveset"
+description='''
+
+'''
+
+[[dependencies.falchionmoveset]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.falchionmoveset]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.falchionmoveset]]
+    modId="epicfight"
+    mandatory=true
+    versionRange="[18.3.7,)"
+    ordering="BEFORE"
+    side="BOTH"
+[[dependencies.falchionmoveset]]
+    modId="magistuarmory"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="BEFORE"
+    side="BOTH"
+[[dependencies.falchionmoveset]]
+    modId="dungeons_gear"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="BEFORE"
+    side="BOTH"
