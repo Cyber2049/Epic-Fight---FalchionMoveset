@@ -99,7 +99,7 @@ repositories {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.18.2-40.2.2'
+    minecraft 'net.minecraftforge:forge:1.18.2-40.2.10'
     implementation fg.deobf("blank:epicfight:18.5.9")
     implementation fg.deobf("curse.maven:dungeons-gear-401247:4292137")
     implementation fg.deobf("curse.maven:dungeons-libraries-550941:4363207")
